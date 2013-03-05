@@ -15,6 +15,31 @@ class module.exports.Keyboard extends Base
     'DOWN':             'down'
     'NEWLINE':          'ok'
     'ESC':              'red'
+    'h':                'home'
+    '-':                'vol_dec'
+    '+':                'vol_inc'
+    '1':                1
+    '2':                2
+    '3':                3
+    '4':                4
+    '5':                5
+    '6':                6
+    '7':                7
+    '8':                8
+    '9':                9
+    '0':                0
+    #: 'av'
+    #: 'power'
+    #: 'green'
+    #: 'blue'
+    #: 'yellow'
+    #: 'mute'
+    #: 'prgm_inc'
+    #: 'prgm_dec'
+    #: 'rec'
+    #: 'bwd'
+    #: 'fwd'
+    #: 'play'
 
   onInput: (human, c, i) =>
     fn = @["onInput_#{@mode}"]
