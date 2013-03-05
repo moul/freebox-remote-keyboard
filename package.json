@@ -1,6 +1,6 @@
 {
   "name": "freebox-remote-keyboard",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Send local keyboard presses to a remote freebox player",
   "main": "index.js",
   "bin": {
